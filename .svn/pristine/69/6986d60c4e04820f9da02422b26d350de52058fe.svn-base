@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="220dp"
+    android:background="@drawable/custom_border"
+    android:layout_gravity="top|end"
+    android:layout_height="280dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:text="@string/text_delivery_locations"
+        android:layout_marginTop="25dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/color_gray"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="130dp">
+        <LinearLayout
+            android:layout_width="70dp"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/ic_location_yellow"
+                android:layout_gravity="end"
+                android:layout_height="0dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/ic_location_violet"
+                android:layout_gravity="end"
+                android:layout_height="0dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/ic_location_green"
+                android:layout_gravity="end"
+                android:layout_height="0dp" />
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="5dp"
+            android:background="@color/color_gray"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_height="130dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="@string/text_inprogress_denoter"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:padding="5dp"
+                android:gravity="center|start"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="@string/text_undelivered_denoter"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:padding="5dp"
+                android:gravity="center|start"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="@string/text_delivered_denoter"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:padding="5dp"
+                android:gravity="center|start"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/color_gray"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center|start"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:text="@string/text_delivery_person"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/color_gray"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/mapbox_marker_icon_default"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="3dp"
+            android:background="@color/color_gray"
+            android:layout_marginTop="5dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:gravity="center|start"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/text_deliveryperson_denoter"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aadhilahmed.mapboxdeliveries1.Activity.RadiusFilteringActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar2"
+        android:background="@color/colorPrimary"
+        app:theme="@style/GeneralActivityTheme"
+        app:popupTheme="@style/Theme.AppCompat" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            mapbox:mapbox_cameraTargetLat="33.42634778"
+            mapbox:mapbox_cameraTargetLng="-117.18317046"
+            mapbox:mapbox_cameraTilt="20"
+            mapbox:mapbox_styleUrl="mapbox://styles/aadhilahmed/cj93xkuer6hy32rqe9e9fznzr"
+            mapbox:mapbox_cameraZoom="7"/>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="@string/circle_result_button_name1"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/btnShowCircleResult"
+            android:layout_marginBottom="5dp"
+            android:background="#c4535b00"
+            android:layout_gravity="bottom|end"/>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

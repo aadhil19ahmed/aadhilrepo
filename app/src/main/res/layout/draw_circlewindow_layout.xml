@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="210dp"
+    android:background="@drawable/info_window_bcgrnd_design"
+    android:layout_height="140dp">
+
+    <android.support.v7.widget.DialogTitle
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/title_draw_circle_dialog"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorBlack"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/text_enter_radius"/>
+
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionDone"
+        android:id="@+id/txtRadiusInput" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:id="@+id/btnDrawCircle"
+        android:text="@string/dialog_button_name"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="7dp"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

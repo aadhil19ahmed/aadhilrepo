@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_greenish_white"
+    tools:context="com.example.aadhilahmed.mapboxdeliveries1.Activity.DeliveryBoyActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar3"
+        android:background="@color/colorPrimary"
+        app:theme="@style/GeneralActivityTheme"
+        app:popupTheme="@style/Theme.AppCompat" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deliveryRecyclerView"
+            android:layout_gravity="top"
+            android:background="#ffffff"
+            android:scrollbars="vertical"/>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="bottom|end"
+            android:padding="5dp"
+            android:id="@+id/viewRouteButton"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_location_red"
+                android:scaleType="fitCenter"
+                android:padding="2dp"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:text="@string/go_to_map"
+                android:textColor="@color/colorWhite"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp" />
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:background="@drawable/layout_border"
+    android:layout_height="120dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtProductTitle"
+        android:textColor="@color/colorBlack"
+        android:textSize="17.5sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="45dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="@string/text_type"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="2dp"
+            android:textColor="@color/colorBlack"
+            android:gravity="end"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/color_green"
+            android:textSize="15sp"
+            android:padding="2dp"
+            android:id="@+id/txtDeliverySpeed"
+            android:gravity="left"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:padding="2dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="13sp"
+        android:gravity="left|top"
+        android:id="@+id/txtAddressDisplay"
+        android:layout_height="45dp" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Delivery Express</string>
+
+    <string name="emailHint">Enter Email</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="buttonName">Sign In</string>
+    <string name="loginChoice">Login As</string>
+    <string name="nameManager">Manager</string>
+    <string name="nameDeliveryPerson">Delivery Person</string>
+    <string name="toastEmptySpinnerAlert">Please select the type you want to login into</string>
+    <string name="show_selected_button">Show Selected</string>
+    <string name="textemptyAlert">Please enter Email and Password</string>
+    <string name="invaliduserAlert">Invalid User</string>
+    <string name="loginSuccess">Login Successful</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="title_choropleth_activity">No.of orders per year(Statewise)</string>
+    <string name="title_radiusfiltering_activity">Orders within a radius</string>
+    <string name="title_deliveryboy_activity">Todays Task</string>
+    <string name="title_manager_activity">Order locations and Delivery Status</string>
+    <string name="title_locations_activity">Your Delivery Locations</string>
+    <string name="title_optimisedroute_activity">Optimised Route</string>
+
+    <string name="title_draw_circle_dialog"><u>DRAW CIRCLE WINDOW</u></string>
+    <string name="manager_activity_titleinfo">Tap anywhere on map and enter radius to check delivery info within that radius</string>
+
+    <string name="product_id">PRODUCT-ID</string>
+    <string name="start_optimising">START ROUTE</string>
+    <string name="start_navigation">NAVIGATE</string>
+    <string name="go_to_map">GO TO MAP</string>
+    <string name="text_type"><u>Type:</u></string>
+    <string name="name_search">Search by product name...</string>
+    <string name="name_info">Info box</string>
+    <string name="name_log_out">Sign out</string>
+
+    <string name="name_display_text">NAME:</string>
+    <string name="location_display_text">LOCATION:</string>
+
+    <string name="text_enter_radius">Enter radius in km:</string>
+    <string name="dialog_hint_enter_radius">in kms</string>
+    <string name="dialog_button_name">Draw Circle</string>
+    <string name="toast_alert_circle_window">Radius cannot be empty</string>
+    <string name="circle_result_button_name1">Show Result</string>
+    <string name="circle_result_button_name2">Clear Circle</string>
+    <string name="toast_tap_on_marker">Tap on the marker that appeared</string>
+    <string name="filter">Filter</string>
+    <string name="clear_filter">Clear Filters</string>
+
+    <!--InfoDetailsStrings-->
+    <string name="text_delivery_locations">Delivery Location Markers</string>
+    <string name="text_inprogress_denoter">In Progress</string>
+    <string name="text_undelivered_denoter">Undelivered</string>
+    <string name="text_delivered_denoter">Delivered</string>
+    <string name="text_delivery_person">Delivery Person Marker</string>
+    <string name="text_deliveryperson_denoter">DeliveryBoy Location</string>
+
+    <!--circlepopupMenu-->
+    <string name="text_markerposition">  \u2022  Centre position</string>
+    <string name="text_radius">  \u2022  Radius marked</string>
+    <string name="text_undelivered_stats">  \u2022  Undelivered items</string>
+    <string name="text_delivered_stats">  \u2022  Delivered items</string>
+    <string name="text_colon"><b>:</b></string>
+    <string name="text_dismiss">Dismiss</string>
+
+    <string-array name="drawer_list">
+        <item>View no.of orders stats</item>
+        <item>Sign out</item>
+    </string-array>
+
+    <string-array name="login_types">
+        <item>Manager</item>
+        <item>Delivery Person</item>
+    </string-array>
+</resources>

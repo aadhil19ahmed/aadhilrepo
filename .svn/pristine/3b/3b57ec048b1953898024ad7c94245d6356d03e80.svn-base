@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="@color/color_listbg"
+    android:layout_height="120dp">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="40dp"
+            android:background="@color/color_gray"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:id="@+id/txtproductIdName"
+            android:text="@string/product_id"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:id="@+id/txtproductIdDisplay"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="45sp"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorBlack"/>
+            
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.9"
+                android:id="@+id/imgTaskComplete"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+                android:src="@drawable/ic_task_incomplete"/>
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlack"/>
+    </LinearLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:weightSum="100"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:id="@+id/txtProductName"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="2dp"
+            android:textColor="@color/colorBlack"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:id="@+id/txtOrderID"
+            android:padding="2dp"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:id="@+id/txtDeliveryType"
+            android:padding="2dp"
+            android:textSize="16sp"
+            android:textColor="@color/color_green"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:id="@+id/txtAddress"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:gravity="clip_vertical"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
